@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>CSS Column Layout</title>
+    </head>
+
+    <style>
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100px;
+            text-align: center;
+        }
+
+        .column1 {
+            width: 25%;
+            background-color: orange;
+        }
+
+        .column2 {
+            width: 25%;
+            background-color: yellow;
+        }
+
+        .column3 {
+            width: 25%;
+            background-color: greenyellow;
+        }
+        .column4 {
+            width: 25%;
+            background-color: aqua;
+        }
+        header,
+        footer {
+            background-color: pink;
+            text-align: center;
+        }
+    </style>
+
+    <body>
+        <header>HEADER</header>
+        <main>
+            <div class="column column1">COLUMN 1</div>
+            <div class="column column2">COLUMN 2</div>
+            <div class="column column3">COLUMN 3</div>
+            <div class="column column4">COLUMN 3</div>
+        </main>
+        <footer>FOOTER</footer>
+    </body>
+
+</html>
